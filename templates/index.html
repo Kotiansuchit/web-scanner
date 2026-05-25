@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>WebXRay Scanner</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🛡️ WebXRay Scanner</h1>
+
+<form method="POST">
+
+<input
+type="text"
+name="url"
+placeholder="Enter Website URL"
+required
+>
+
+<button type="submit">
+Start Scan
+</button>
+
+</form>
+
+{% if target %}
+
+<h3 class="target">
+Target Website: {{ target }}
+</h3>
+
+{% endif %}
+
+{% if findings %}
+
+<!-- Summary -->
+
+<div class="summary">
+
+<div class="card high">
+High Risk: {{ high }}
+</div>
+
+<div class="card medium">
+Medium Risk: {{ medium }}
+</div>
+
+<div class="card safe">
+Safe: {{ safe }}
+</div>
+
+</div>
+
+<!-- Scan Time -->
+
+<div class="scan-time">
+Scan Completed in {{ scan_time }} seconds
+</div>
+
+<!-- Table -->
+
+<table>
+
+<tr>
+<th>Check</th>
+<th>Status</th>
+<th>Risk</th>
+</tr>
+
+{% for f in findings %}
+
+<tr class="risk-{{ f[2] }}">
+
+<td>{{ f[0] }}</td>
+<td>{{ f[1] }}</td>
+<td>{{ f[2] }}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+<!-- Report -->
+
+<div class="report">
+
+<h3>
+PDF Report Generated Successfully
+</h3>
+
+<p>
+Report Name:
+{{ report_name }}
+</p>
+
+<a
+href="/download/{{ report_name }}"
+download
+class="download-btn">
+
+Download PDF Report
+
+</a>
+
+</div>
+
+{% endif %}
+
+</div>
+
+</body>
+</html>
