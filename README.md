@@ -14,7 +14,7 @@ It scans websites for basic security issues and generates a downloadable PDF sec
 - Broken Link Finder
 - Risk Level Classification
 - PDF Report Generation
-- Clean Cybersecurity Dashboard UI
+- Clean Dashboard UI
 
 
 
