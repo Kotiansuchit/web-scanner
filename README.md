@@ -3,7 +3,8 @@
 WebXRay is a simple cybersecurity project developed using Python Flask, HTML, and CSS.  
 It scans websites for basic security issues and generates a downloadable PDF security report.
 
-
+#screenshot
+![image alt](https://github.com/Kotiansuchit/web-scanner/blob/main/project%20classes%20ss.png?raw=true)
 
 ## Features
 
@@ -77,5 +78,4 @@ WEBXRAY/
 │
 └── README.md
 
-##Screenshot
-![image alt]([https://github.com/Kotiansuchit/web-scanner/blob/ecb5e34f409324e543065e1d6973d6abca464882/project%20classes%20ss.png](https://github.com/Kotiansuchit/web-scanner/blob/main/project%20classes%20ss.png?raw=true))
+
