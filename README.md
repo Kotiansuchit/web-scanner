@@ -57,9 +57,10 @@ Detects inaccessible or broken links on the target website.
 
 Install required libraries:
 
-```bash
+
 pip install flask requests beautifulsoup4 reportlab builtwith
-Run Project
+
+Run Project with:
 python app.py
 
 Open browser:
