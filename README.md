@@ -77,5 +77,4 @@ WEBXRAY/
 │
 └── README.md
 
-![image alt](https://github.com/Kotiansuchit/web-scanner/blob/464e07ff41f2b46067263419ee9c0719b32aaca6/project%20classes%20ss.png)
 
