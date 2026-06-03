@@ -76,3 +76,6 @@ WEBXRAY/
 │   └── style.css
 │
 └── README.md
+
+###Screenshot
+<img width="1850" height="952" alt="image" src="https://github.com/user-attachments/assets/1de66c33-4182-44b2-8cb2-346ddc6424a2" />
