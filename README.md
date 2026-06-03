@@ -78,4 +78,4 @@ WEBXRAY/
 └── README.md
 
 ###Screenshot
-<img width="1850" height="952" alt="Screenshot 2026-06-03 121359" src="https://github.com/user-attachments/assets/37982e0c-ed1c-494f-bd18-5c40e1233aa5" />
+<img width="1850" height="952" alt="Screenshot 2026-06-03 121359" src=""C:\Users\Suchit Kotian\Pictures\Screenshots\project classes ss.png"" />
